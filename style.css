@@ -16,6 +16,8 @@ ul {
 
   --brand-beige: hsl(39, 100%, 97%);
   --brand-light: hsl(148, 9%, 89%);
+ 
+  --bg-light: hsl(180, 14%, 97%)
 
   font-size: 62.5%; /* 1rem = 10px */
 
@@ -34,12 +36,18 @@ body {
   text-align: center;
 
   overflow: overlay;
+
+  background-color: var(--bg-light);
 }
 
 .wrapper {
   width: 37.5rem;
   margin-inline: auto;
   padding-inline: 2.4rem;
+}
+
+section {
+  padding-block: 10rem;
 }
 
 /* ==== HEADER ==== */
@@ -151,7 +159,7 @@ header div.stats {
 /* ==== NAVIGATION ==== */
 nav {
   display: flex;
-  
+ 
   height: var(--nav-height);
 
   position: fixed;
@@ -319,4 +327,10 @@ body.menu-expanded button path {
 
 #services .card h3 {
   margin-block: 1.6rem;
+}
+
+#cuscuz {
+  color: yellow;
+  width: 100%;
+  background: black;
 }
