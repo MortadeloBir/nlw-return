@@ -17,7 +17,7 @@ ul {
   --brand-beige: hsl(39, 100%, 97%);
   --brand-light: hsl(148, 9%, 89%);
  
-  --bg-light: hsl(180, 14%, 97%)
+  --bg-light: hsl(180, 14%, 97%);
 
   font-size: 62.5%; /* 1rem = 10px */
 
@@ -327,10 +327,4 @@ body.menu-expanded button path {
 
 #services .card h3 {
   margin-block: 1.6rem;
-}
-
-#cuscuz {
-  color: yellow;
-  width: 100%;
-  background: black;
 }
